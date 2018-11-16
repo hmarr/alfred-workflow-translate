@@ -1,0 +1,17 @@
+{
+  "name": "alfred-workflow-translate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "alfy": "^0.8.0",
+    "node-google-translate-skidz": "^1.1.2",
+    "prettier": "^1.15.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
