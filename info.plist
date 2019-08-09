@@ -52,6 +52,8 @@
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
 				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -71,7 +73,7 @@
 				<key>runningsubtext</key>
 				<string></string>
 				<key>script</key>
-				<string>cd alfred-workflow-translate &amp;&amp; node_modules/.bin/run-node index.js "en es $1"</string>
+				<string>node_modules/.bin/run-node index.js "en es $1"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -90,7 +92,7 @@
 			<key>uid</key>
 			<string>265EEED8-4BAE-47CC-8F17-E7631E578FAA</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -107,7 +109,7 @@
 			<key>uid</key>
 			<string>79A59C69-76A9-42C0-AD00-AC6640146DBF</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -116,6 +118,8 @@
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
 				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -135,7 +139,7 @@
 				<key>runningsubtext</key>
 				<string></string>
 				<key>script</key>
-				<string>cd alfred-workflow-translate &amp;&amp; node_modules/.bin/run-node index.js "es en $1"</string>
+				<string>node_modules/.bin/run-node index.js "es en $1"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -154,7 +158,7 @@
 			<key>uid</key>
 			<string>88AC943E-29BF-42E5-8848-FD5B67978512</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -171,7 +175,7 @@
 			<key>uid</key>
 			<string>FBBDBFA1-D5C9-4F26-BC9C-5AAEAD144BC3</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 	</array>
 	<key>readme</key>
