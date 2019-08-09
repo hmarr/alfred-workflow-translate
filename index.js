@@ -1,9 +1,10 @@
 const alfy = require("alfy");
-var translate = require("node-google-translate-skidz");
+const translate = require("node-google-translate-skidz");
 
 const [source, target, ...queryWords] = alfy.input.split(" ");
+const query = queryWords.join(" ")
 
-translate({ text: queryWords.join(" "), source, target })
+translate({ text: query, source, target })
   .then(function(result) {
     if (!result) {
       alfy.output([{ title: "No translations found" }]);
