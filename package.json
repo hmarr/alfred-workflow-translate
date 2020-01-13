@@ -1,17 +1,20 @@
 {
   "name": "alfred-workflow-translate",
   "version": "1.0.0",
-  "description": "",
+  "description": "Afred translation workflow based on Google Translate",
   "main": "index.js",
   "dependencies": {
-    "alfy": "^0.9.0",
-    "node-google-translate-skidz": "^1.1.2",
+    "alfy": "^0.9.1",
+    "node-google-translate-skidz": "^1.1.2"
+  },
+  "devDependencies": {
     "prettier": "^1.15.2"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Harry Marr",
+  "homepage": "https://github.com/hmarr/alfred-workflow-translate",
+  "license": "MIT"
 }
