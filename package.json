@@ -1,7 +1,7 @@
 {
   "name": "alfred-workflow-translate",
-  "version": "1.0.1",
-  "description": "Afred translation workflow based on Google Translate",
+  "version": "1.0.2",
+  "description": "Quick access to Google Translate via Alfred",
   "main": "index.js",
   "dependencies": {
     "alfy": "^0.9.1",
