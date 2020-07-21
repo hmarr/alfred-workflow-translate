@@ -8,7 +8,7 @@
     "node-google-translate-skidz": "^1.1.2"
   },
   "devDependencies": {
-    "prettier": "^1.15.2"
+    "prettier": "^1.19.1"
   },
   "scripts": {
     "postinstall": "alfy-init",
